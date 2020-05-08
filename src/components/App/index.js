@@ -1,12 +1,13 @@
 import React from 'react'
+import SearchBar from '../SearchBar'
+import { Title } from '../Title'
 
-function App () {
-  return (
-    <div >
-      <h1>Hello There!</h1>
-    </div>
+const App = () => (
+  <div >
+    <Title />
+    <SearchBar />
+  </div>
 
-  )
-}
+)
 
 export default App
