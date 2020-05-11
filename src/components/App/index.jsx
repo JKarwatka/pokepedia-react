@@ -3,6 +3,7 @@ import SearchBar from '../SearchBar'
 import { Title } from '../Title'
 import { PokemonGrid } from '../PokemonGrid'
 import styled from 'styled-components'
+import { FiltersSection } from '../FiltersSection'
 
 const AppContainer = styled.div`
   background-color: salmon;
@@ -13,6 +14,7 @@ const App = () => (
   <AppContainer >
     <Title />
     <SearchBar />
+    <FiltersSection />
     <PokemonGrid />
   </AppContainer>
 )
